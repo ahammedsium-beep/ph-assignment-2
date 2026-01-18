@@ -38,6 +38,7 @@
     max-width: var(--max-w);
     color: var(--white);
 }
+
 .navbar{
     height: 92px;
     max-width: 1600px;
@@ -104,7 +105,7 @@
     border-radius: 18px;
     z-index: 1;
     position: relative;
-    margin-left: 877px;
+    margin-left: 857px;
     margin-top: -455px;
 }
 
@@ -244,7 +245,7 @@ hr{
 }
 
 .featured-episodes{
-    height: 1176px;
+    height: 1026px;
     background-color: var(--main-bg-clr);
     padding: 120px 200px;
 }
@@ -386,4 +387,45 @@ hr{
     height: 20px;
     width: 20px;
     padding: 20px;
+}
+
+.footer{
+    height: 412px;
+    max-width: 1600px;
+    background-image: url("./assets/footer-bg.png");
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1{
+    font-size: var(--h1);
+}
+
+.footer-socials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 408px;
+}
+
+.footer-socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px auto;
+}
+
+.footer-socials img{
+    margin-right: 10px;
+}
+
+.footer-socials p{
+    margin-right: 40px;
+}
+
+.twitter{
+    margin-right: -20px;
 }
