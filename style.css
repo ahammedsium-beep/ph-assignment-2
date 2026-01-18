@@ -1,7 +1,9 @@
 :root{
     --main-bd-clr: #1A0B2E;
     --2nd-bg-clr: #230E3D;
+    --card-clr: rgba(53, 17, 101, 0.4);
     --normal-font-size: 1rem;
+    --card-header-font: 1.5rem;
     --white: #FFFFFF;
     --max-w: 1600px;
     --btn-gradient: linear-gradient(
@@ -167,9 +169,14 @@
     margin-top: 60px;
 }
 
+hr{
+    width: 1200px;
+    margin: 80px auto;
+}
+
 .about-number-section{
     height: 94px;
-    margin: 160px 200px;
+    margin: 0 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -180,3 +187,55 @@
     font-size: var(--s-h1);
 }
 
+.why-techwave{
+    height: 1021px;
+    background-color: var(--2nd-bg-clr);
+    padding-top: 120px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 0px;
+}
+
+.why-techwave h1{
+    text-align: center;
+    font-size: var(--s-h1);
+    margin-bottom: 40px;
+}
+
+.card-holder{
+    height: 783px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.cards{
+    background-color: var(--card-clr);
+    border-radius: 20px;
+    align-content: center;
+    padding: 0 40px;
+}
+
+.cards h3{
+    margin: 16px auto;
+    font-size: var(--card-header-font);
+    font-weight: calc(--bold);
+}
+
+.headphone-span{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.two-col-span{
+    grid-column: span 2;
+    grid-row: span 1;
+    height: 225px;
+    width: 90%;
+}
+
+#btm-grid{
+    height: 273px;
+}
