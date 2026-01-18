@@ -1,0 +1,73 @@
+:root{
+    --main-bd-clr: #1A0B2E;
+    --normal-font-size: 1rem;
+    --white: #FFFFFF;
+    --max-w: 1600px;
+    --btn-gradient: linear-gradient(
+        45deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8);
+    --btn-gradient-hover: linear-gradient(
+        -45deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8);
+    
+    --btn-p: 12.5px 16px;
+    --semi-bold: 600;
+    --btn-radius: 44px;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    max-width: var(--max-w);
+    color: var(--white);
+}
+.navbar{
+    height: 92px;
+    max-width: 1600px;
+    background-color: var(--main-bd-clr);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wave-text{
+    background-image: linear-gradient(
+        15deg,
+        #F7E93F,
+        #FB09B4,
+        #9100F8);
+    --webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-size: var(--normal-font-size);
+}
+
+.nav-btn{
+    background-image: var(--btn-gradient);
+    padding: var(--btn-p);
+    font-weight: var(--semi-bold);
+    border-radius: var(--btn-radius);
+    border: none;
+}
+
+.nav-btn:hover{
+    transform: scale(1.15);
+    background-image: var(--btn-gradient-hover);
+    border: 2px solid var(--white);
+}
+
+.subscribe-text{
+    margin-right: 4px;
+}
