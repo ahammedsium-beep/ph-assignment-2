@@ -25,8 +25,9 @@
     --h1: 3.75rem;
     --s-h1: 3rem;
     --btn-radius: 44px;
-    --video-card-clr: #250D44;
+    --video-card-clr: rgba(37, 13, 68, 1);
     --card-h3: 1.5rem;
+    --social-img-border: rgba(83, 60, 114, 1);
 }
 
 *{
@@ -304,8 +305,10 @@ hr{
     height: 214px;
     width: 340px;
     background-size: contain;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
+    border-radius: 20px;
+    opacity: 80%;
 }
 
 .video-text{
@@ -334,4 +337,53 @@ hr{
 .video-text h4{
     color: var(--greenish-clr);
     margin: 0;
+}
+
+.host-header h1{
+    margin-top: 120px;
+}
+
+.host-card{
+    background-color: var(--card-clr);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+}
+
+.host-text h2{
+    font-size: 2rem;
+    font-weight: var(--bold);
+}
+
+.host-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.host-social-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.img-div{
+    border: 2px solid var(--social-img-border);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-right: 8px;
+}
+
+.host-social-container img{
+    height: 20px;
+    width: 20px;
+    padding: 20px;
 }
