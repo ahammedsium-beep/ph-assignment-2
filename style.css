@@ -1,5 +1,5 @@
 :root{
-    --main-bd-clr: #1A0B2E;
+    --main-bg-clr: #1A0B2E;
     --2nd-bg-clr: #230E3D;
     --card-clr: rgba(53, 17, 101, 0.4);
     --normal-font-size: 1rem;
@@ -25,6 +25,8 @@
     --h1: 3.75rem;
     --s-h1: 3rem;
     --btn-radius: 44px;
+    --video-card-clr: #250D44;
+    --card-h3: 1.5rem;
 }
 
 *{
@@ -38,7 +40,7 @@
 .navbar{
     height: 92px;
     max-width: 1600px;
-    background-color: var(--main-bd-clr);
+    background-color: var(--main-bg-clr);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -238,4 +240,98 @@ hr{
 
 #btm-grid{
     height: 273px;
+}
+
+.featured-episodes{
+    height: 1176px;
+    background-color: var(--main-bg-clr);
+    padding: 120px 200px;
+}
+
+.play-btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    background: var(--btn-gradient);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 77px 160px;
+}
+
+.play-btn i{
+    background-color: var(--btn-gradient);
+    font-size: 25px;
+    text-align: center;
+}
+
+.featured-header h1,
+.host-header h1{
+    text-align: center;
+    font-size: var(--s-h1);
+    font-weight: var(--bold);
+    margin-bottom: 40px;
+}
+
+.video-container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-cards{
+    background-color: var(--video-card-clr);
+    height: 440px;
+    width: 340px;
+    border-radius: 20px;
+}
+
+#thumbnail1{
+    background-image: url("./assets/thumbnail1.jpg");
+}
+
+#thumbnail2{
+    background-image: url("./assets/thumbnail2.jpg");
+}
+
+#thumbnail3{
+    background-image: url("./assets/thumbnail3.jpg");
+}
+
+#thumbnail1,
+#thumbnail2,
+#thumbnail3{
+    height: 214px;
+    width: 340px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.video-text{
+    padding: 24px;
+}
+
+.video-text h3{
+    font-size: var(--card-h3);
+}
+
+.video-text p{
+    margin: 12px auto;
+}
+
+.duration-div{
+    height: 24px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.video-text img{
+    margin: 0 5px 0 0;
+}
+
+.video-text h4{
+    color: var(--greenish-clr);
+    margin: 0;
 }
