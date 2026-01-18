@@ -1,5 +1,6 @@
 :root{
     --main-bd-clr: #1A0B2E;
+    --2nd-bg-clr: #230E3D;
     --normal-font-size: 1rem;
     --white: #FFFFFF;
     --max-w: 1600px;
@@ -17,8 +18,10 @@
     --blackish-clr: #1A0B2E;
     --btn-p: 12.5px 16px;
     --semi-bold: 600;
+    --bold: 700;
     --extra-bold: 900;
     --h1: 3.75rem;
+    --s-h1: 3rem;
     --btn-radius: 44px;
 }
 
@@ -143,5 +146,37 @@
 
 .btn-2 i, .btn-2 span{ 
     color: var(--greenish-clr);
+}
+
+.about{
+    height: 646px;
+    background-color: var(--blackish-clr);
+    text-align: center;
+}
+
+.about-text-div h1{
+    font-size: var(--s-h1);
+    font-weight: var(--bold);
+}
+
+.about-text-div p{
+    margin: 16px 0;
+}
+
+.join-part{
+    margin-top: 60px;
+}
+
+.about-number-section{
+    height: 94px;
+    margin: 160px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-number-section h1{
+    color: var(--greenish-clr);
+    font-size: var(--s-h1);
 }
 
