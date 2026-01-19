@@ -147,6 +147,11 @@
     margin: 24px auto;
 }
 
+.p-tag-div{
+    margin: 24px auto;
+    padding: 0 500px;
+}
+
 .btn-2{
     border: 1px solid var(--greenish-clr);
     padding: var(--btn-p);

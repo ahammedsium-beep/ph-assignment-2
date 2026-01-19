@@ -22,7 +22,7 @@
 
     .bg-hero .microphone-img{
         z-index: 1;
-        margin-left: -18px;
+        margin-left: -43px;
         margin-top: -125px;
     }
 
@@ -44,6 +44,10 @@
 
     .text-section{
         padding: 20px;
+    }
+
+    .p-tag-div{
+        padding: 0;
     }
 
     .about{
