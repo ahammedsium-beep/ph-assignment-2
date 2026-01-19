@@ -33,6 +33,7 @@
 *{
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
     font-family: "inter", sans-serif;
     font-optical-sizing: auto;
     max-width: var(--max-w);
@@ -103,16 +104,6 @@
     align-items: center;
 }
 
-.new-btn{
-    background-color: var(--greenish-clr);
-    padding: 8px 16px;
-    border-radius: 18px;
-    z-index: 1;
-    position: relative;
-    margin-left: 857px;
-    margin-top: -455px;
-}
-
 .new-btn h4{
     color: var(--blackish-clr);
     font-size: 1.125rem;
@@ -122,7 +113,24 @@
     max-width: 550px;
     height: 558px;
     text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.bg-hero{
+    position: relative;
+}
+
+.new-btn{
+    background-color: var(--greenish-clr);
+    padding: 8px 16px;
+    border-radius: 18px;
+    z-index: 10;
     position: absolute;
+    top: 8%;
+    left: 76%;
+    transform: translate(-50%);
+    margin: 0;
 }
 
 .bg-hero{
@@ -131,8 +139,10 @@
 
 .microphone-img{
     position: absolute;
-    top: 77.33px;
-    left: 216.67px;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
 }
 
 .text-section{
@@ -149,7 +159,7 @@
 
 .p-tag-div{
     margin: 24px auto;
-    padding: 0 500px;
+    padding: 0 200px;
 }
 
 .btn-2{
@@ -217,7 +227,8 @@ hr{
 
 .card-holder{
     height: 783px;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);

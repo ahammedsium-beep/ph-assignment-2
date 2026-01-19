@@ -1,8 +1,14 @@
-
 @media screen and (max-width: 576px) {
+    html, body{
+        overflow-x: hidden;
+    }
+
     body{
-        max-width: 440px;
-        width: 440px;
+        /* max-width: 440px;
+        width: 440px; */
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
     }
 
     .nav-section .ul,
@@ -20,15 +26,34 @@
         background-color: #1A0B2E;
     }
 
+    /* .bg-hero{
+        position: relative;
+    } */
+
     .bg-hero .microphone-img{
-        z-index: 1;
-        margin-left: -43px;
-        margin-top: -125px;
+        /* margin-left: -43px;
+        margin-top: -125px; */
+
+        position: absolute;
+        top: -47.2%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
     }
 
     .new-btn{
-        margin-left: 250px;
-        margin-bottom: 250px;
+        /* margin-left: 250px;
+        margin-bottom: 250px; */
+        /* top: -10px; */
+        position: absolute;
+        padding: 6px 12px;
+        top: -15%;
+        left: 70%;
+        transform: translate(-50%);
+    }
+
+    .new-btn h4{
+        font-size: .8rem;
     }
 
     .circle-img{
@@ -46,13 +71,29 @@
         padding: 20px;
     }
 
-    .p-tag-div{
-        padding: 0;
+    /* .p-tag-div{
+        max-width: 700px;
+        padding: 0 20px;
+    } */
+
+    .text-section h1{
+        font-size: 2.5rem;
+    }
+
+    .text-section p{
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .btn-1, .btn-2{
+        font-size: .9rem;
+        padding: 10px 14px;
     }
 
     .about{
         margin-top: -200px;
         padding: 20px;
+        height: auto;
     }
 
     .about-text-div h1{
@@ -63,8 +104,13 @@
         font-size: 1rem;
     }
 
+    .p-tag-div{
+        padding: 0 20px;
+    }
+
     hr{
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
     }
 
     .about-number-section{
@@ -73,6 +119,7 @@
         margin: 0;
         padding: 20px;
         gap: 40px;
+        height: auto;
     }
 
     .about-number-section h1{
@@ -86,12 +133,14 @@
     .why-techwave{
         margin: 0;
         padding: 20px;
-        height: 1283px;
+        height: auto;
     }
 
     .why-header-div{
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
         text-align: center;
+        margin: 0 auto;
     }
 
     .why-header-div h1{
@@ -100,12 +149,15 @@
 
     .card-holder{
         grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        max-width: 100%;
     }
 
     .cards{
-        width: 336px;
+        width: 100%;
+        max-width: 336px;
         height: auto;
-        margin: 0;
+        margin: 0 auto;
         padding: 24px;
         grid-row: span 1;
         grid-column: span 1;
@@ -125,15 +177,17 @@
     }
 
     .featured-episodes{
-        width: 440px;
+        width: 100%;
+        max-width: 440px;
         height: 2056px;
-        padding: 40px 0 0 0;
+        padding: 40px 20px;
     }
 
     .featured-header{
-        width: 400px;
-        height: 39px;
-        margin-bottom: 24px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 0 auto 24px;
     }
 
     .featured-header h1,
@@ -143,6 +197,9 @@
 
     .video-cards{
         height: 393px;
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
     }
 
     .video-container-div{
@@ -157,13 +214,17 @@
 
     .video-text p{
         font-size: 1rem;
-        white-space: nowrap;
+        /* white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;
+        text-overflow: ellipsis; */
     }
 
     .host-section{
-        padding: 0 24px 40px;
+        padding: 24px 40px;
+    }
+
+    .host-card h1{
+        margin-top: 40px;
     }
 
     .host-card{
@@ -181,8 +242,10 @@
     }
 
     .footer{
-        width: 440px;
-        height: 248px;
+        width: 100%;
+        max-width: 440px;
+        height: auto;
+        padding: 40px 20px;
         background-size: cover;
         background-position: center;
     }
@@ -193,10 +256,11 @@
     }
 
     .footer-socials-container{
-        width: 255px;
+        width: 100%;
+        max-width: 255px;
         height: 64px;
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
         display: block;
     }
 
@@ -206,14 +270,16 @@
 
     .s-con-one{
         height: 24px;
-        width: 255px;
+        width: 100%;
+        max-width: 255px;
         justify-content: space-between;
         align-items: center;
     }
 
     .s-con-two{
         height: 24px;
-        width: 201px;
+        width: 100%;
+        max-width: 201px;
         justify-content: space-between;
         align-items: center;
         margin-top: 16px;
