@@ -265,7 +265,7 @@ hr{
 }
 
 .featured-episodes{
-    height: 1026px;
+    height: auto;
     background-color: var(--main-bg-clr);
     padding: 120px 200px;
 }
@@ -364,9 +364,14 @@ hr{
     margin-top: 120px;
 }
 
+.host-section{
+    margin-bottom: 100px;
+}
+
 .host-card{
     background-color: var(--card-clr);
     border-radius: 30px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,6 +434,14 @@ hr{
     justify-content: center;
     align-items: center;
     margin: 0 408px;
+}
+
+.host-social-container .img-div{
+    margin-right: 6px;
+}
+
+.host-social-container img{
+    padding: 0;
 }
 
 .footer-socials{
