@@ -4,8 +4,6 @@
     }
 
     body{
-        /* max-width: 440px;
-        width: 440px; */
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
@@ -26,14 +24,7 @@
         background-color: #1A0B2E;
     }
 
-    /* .bg-hero{
-        position: relative;
-    } */
-
     .bg-hero .microphone-img{
-        /* margin-left: -43px;
-        margin-top: -125px; */
-
         position: absolute;
         top: -47.2%;
         left: 50%;
@@ -42,9 +33,6 @@
     }
 
     .new-btn{
-        /* margin-left: 250px;
-        margin-bottom: 250px; */
-        /* top: -10px; */
         position: absolute;
         padding: 6px 12px;
         top: -15%;
@@ -70,11 +58,6 @@
     .text-section{
         padding: 20px;
     }
-
-    /* .p-tag-div{
-        max-width: 700px;
-        padding: 0 20px;
-    } */
 
     .text-section h1{
         font-size: 2.5rem;
@@ -161,7 +144,6 @@
         padding: 24px;
         grid-row: span 1;
         grid-column: span 1;
-        margin-left: 11px;
     }
 
     .card-holder h3{
@@ -179,7 +161,7 @@
     .featured-episodes{
         width: 100%;
         max-width: 440px;
-        height: 2056px;
+        height: auto;
         padding: 40px 20px;
     }
 
@@ -214,9 +196,6 @@
 
     .video-text p{
         font-size: 1rem;
-        /* white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis; */
     }
 
     .host-section{
@@ -229,8 +208,9 @@
 
     .host-card{
         flex-direction: column;
-        padding: 24px;
+        padding: 10px;
         text-align: center;
+        height: auto;
     }
 
     .host-text h2{
@@ -239,6 +219,11 @@
 
     .host-social-container{
         justify-content: center;
+    }
+
+    .host-social-container img{
+        padding: 0;
+        margin: 0;
     }
 
     .footer{
@@ -258,7 +243,7 @@
     .footer-socials-container{
         width: 100%;
         max-width: 255px;
-        height: 64px;
+        height: auto;
         padding: 0;
         margin: 0 auto;
         display: block;
