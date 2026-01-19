@@ -48,6 +48,10 @@
     align-items: center;
 }
 
+.navbar .hamburger-menu{
+    display: none;
+}
+
 .wave-text{
     background-image: linear-gradient(
         15deg,
@@ -90,7 +94,7 @@
     max-width: var(--max-w);
     height: 760px;
     background-image:
-        url("./assets/hero-bg.png");
+        url("../assets/hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -289,15 +293,15 @@ hr{
 }
 
 #thumbnail1{
-    background-image: url("./assets/thumbnail1.jpg");
+    background-image: url("../assets/thumbnail1.jpg");
 }
 
 #thumbnail2{
-    background-image: url("./assets/thumbnail2.jpg");
+    background-image: url("../assets/thumbnail2.jpg");
 }
 
 #thumbnail3{
-    background-image: url("./assets/thumbnail3.jpg");
+    background-image: url("../assets/thumbnail3.jpg");
 }
 
 #thumbnail1,
@@ -392,7 +396,7 @@ hr{
 .footer{
     height: 412px;
     max-width: 1600px;
-    background-image: url("./assets/footer-bg.png");
+    background-image: url("../assets/footer-bg.png");
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -416,6 +420,14 @@ hr{
     justify-content: space-between;
     align-items: center;
     margin: 32px auto;
+}
+
+.s-con-one{
+    display: flex;
+}
+
+.s-con-two{
+    display: flex;
 }
 
 .footer-socials img{

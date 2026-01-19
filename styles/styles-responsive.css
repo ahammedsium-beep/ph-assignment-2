@@ -1,0 +1,244 @@
+
+@media screen and (max-width: 576px) {
+    body{
+        max-width: 440px;
+        width: 440px;
+    }
+
+    .nav-section .ul,
+    .nav-btn{
+        display: none;
+    }
+
+    .navbar .hamburger-menu{
+        display: grid;
+    }
+
+    .hero-section-div{
+        background-size: contain;
+        background-position: center top;
+        background-color: #1A0B2E;
+    }
+
+    .bg-hero .microphone-img{
+        z-index: 1;
+        margin-left: -18px;
+        margin-top: -125px;
+    }
+
+    .new-btn{
+        margin-left: 250px;
+        margin-bottom: 250px;
+    }
+
+    .circle-img{
+        margin-top: -100px;
+        height: 180px;
+        width: 180px;
+    }
+
+    .microphone-img{
+        height: 70px;
+        width: 46.67px;
+    }
+
+    .text-section{
+        padding: 20px;
+    }
+
+    .about{
+        margin-top: -200px;
+        padding: 20px;
+    }
+
+    .about-text-div h1{
+        font-size: 2rem;
+    }
+
+    .about-text-div p{
+        font-size: 1rem;
+    }
+
+    hr{
+        width: 400px;
+    }
+
+    .about-number-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        padding: 20px;
+        gap: 40px;
+    }
+
+    .about-number-section h1{
+        font-size: 2.5rem;
+    }
+
+    .about-number-section p{
+        font-size: .8rem;
+    }
+
+    .why-techwave{
+        margin: 0;
+        padding: 20px;
+        height: 1283px;
+    }
+
+    .why-header-div{
+        width: 400px;
+        text-align: center;
+    }
+
+    .why-header-div h1{
+        font-size: 2rem;
+    }
+
+    .card-holder{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cards{
+        width: 336px;
+        height: auto;
+        margin: 0;
+        padding: 24px;
+        grid-row: span 1;
+        grid-column: span 1;
+        margin-left: 11px;
+    }
+
+    .card-holder h3{
+        font-size: 1.375rem;
+    }
+
+    .card-holder p{
+        font-size: .8rem;
+    }
+
+    #btm-grid{
+        height: auto;
+    }
+
+    .featured-episodes{
+        width: 440px;
+        height: 2056px;
+        padding: 40px 0 0 0;
+    }
+
+    .featured-header{
+        width: 400px;
+        height: 39px;
+        margin-bottom: 24px;
+    }
+
+    .featured-header h1,
+    .host-header h1{
+        font-size: 1.9rem;
+    }
+
+    .video-cards{
+        height: 393px;
+    }
+
+    .video-container-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
+    .video-text h3{
+        font-size: 1.15rem;
+    }
+
+    .video-text p{
+        font-size: 1rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .host-section{
+        padding: 0 24px 40px;
+    }
+
+    .host-card{
+        flex-direction: column;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .host-text h2{
+        font-size: 2rem;
+    }
+
+    .host-social-container{
+        justify-content: center;
+    }
+
+    .footer{
+        width: 440px;
+        height: 248px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer-header-div h1{
+        font-size: 2rem;
+        margin-bottom: 24px;
+    }
+
+    .footer-socials-container{
+        width: 255px;
+        height: 64px;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+    .footer-socials{
+        margin: 0;
+    }
+
+    .s-con-one{
+        height: 24px;
+        width: 255px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .s-con-two{
+        height: 24px;
+        width: 201px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .footer-socials img{
+        height: 20px;
+        margin-right: 6px;
+    }
+
+    .footer-socials p{
+        font-size: .9rem;
+        margin-right: 0;
+    }
+
+    .twitter{
+        margin-right: 0;
+    }
+
+    .twitter img{
+        height: 17px;
+    }
+
+    .youtube img{
+        height: 16px;
+    }
+
+    .copyright-p p{
+        font-size: .9rem;
+        margin-top: 24px;
+    }
+}

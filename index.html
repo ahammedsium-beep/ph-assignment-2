@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Wave</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/styles-responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -25,21 +26,21 @@
                 <span class="subscribe-text">Subscribe</span>
                 <span><i class="fa-solid fa-arrow-right"></i></span>
             </button>
+            <div class="hamburger-menu">
+                <img src="./assets/hamburger-menu.png" alt="">
+            </div>
         </nav>
     </section>
 
     <!-- hero section -->
     <section class="hero-section">
-        <!-- <div class="new-btn-div">
-            <button class="new-btn">NEW</button>
-        </div> -->
         <div class="hero-section-div">
             <div class="new-btn">
                 <h4>NEW</h4>
             </div>
             <div class="hero-div">
                 <div class="bg-hero">
-                    <img src="./assets/hero-circle.png" alt="">
+                    <img class="circle-img" src="./assets/hero-circle.png" alt="">
                     <img class="microphone-img" src="./assets/microphone.png" alt="">
                 </div>
                 <div class="text-section">
@@ -64,11 +65,7 @@
             <h1>About The Podcast</h1>
             <p>
                 TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
-            </p>
-            <p>
                 We break down complex topics into digestible insights, explore productivity strategies that actually work,
-            </p>
-            <p>
                 and share stories of personal growth from industry leaders.
             </p>
             <div class="join-part">
@@ -243,22 +240,26 @@
             <h1>Tech<span class="wave-text">Wave</span></h1>
         </div>
         <div class="footer-socials-container">
-            <div class="footer-socials">
-                <img src="./assets/spotify.png" alt="spotify">
-                <p>Spotify</p>
+            <div class="s-con-one">
+                <div class="footer-socials">
+                    <img src="./assets/spotify.png" alt="spotify">
+                    <p>Spotify</p>
+                </div>
+                <div class="footer-socials">
+                    <img src="./assets/apple-podcast.png" alt="Apple Podcasts">
+                    <p>Apple Podcasts</p>
+                </div>
             </div>
-            <div class="footer-socials">
-                <img src="./assets/apple-podcast.png" alt="Apple Podcasts">
-                <p>Apple Podcasts</p>
-            </div>
-            <div class="footer-socials">
-                <img src="./assets/youtube-podcast.png" alt="Youtube podcasts">
-                <p>Youtube</p>
-            </div>
-            <div class="footer-socials twitter">
-                <img src="./assets/twitter.png" alt="twitter podcasts">
-                <p>Twitter</p>
-            </div>
+            <div class="s-con-two">
+                <div class="footer-socials youtube">
+                    <img src="./assets/youtube-podcast.png" alt="Youtube podcasts">
+                    <p>Youtube</p>
+                </div>
+                <div class="footer-socials twitter">
+                    <img src="./assets/twitter.png" alt="twitter podcasts">
+                    <p>Twitter</p>
+                </div>
+                </div>
         </div>
         <div class="copyright-p">
             <p>© 2026 TechWave Podcast. All rights reserved.</p>
